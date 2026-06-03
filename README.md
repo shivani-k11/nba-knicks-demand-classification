@@ -85,6 +85,19 @@ The project combines NBA game-level attendance data with NBA All-Star player inf
 * Visitor All-Star Count
 
 ---
+## Data Preparation
+
+The project combined game-level attendance data with player-level NBA All-Star data to create a predictive modeling dataset focused on New York Knicks home games.
+
+Key preparation steps included:
+
+* Filtering the dataset to New York Knicks home games across 30 NBA seasons (1990–2019)
+* Aggregating player-level All-Star records into Home All-Star Count and Visitor All-Star Count features
+* Merging attendance and All-Star datasets at the game level
+* Creating occupancy rate and high-demand target variables
+* Engineering performance, scheduling, and game-context features including Current Win %, Previous Season Win %, Last Five Games Performance, Playoffs, Rivalry, Day of Week, and Month
+* Restricting model inputs to pre-game information to ensure realistic demand predictions and prevent data leakage
+* Preparing a final classification-ready modeling dataset for machine learning analysis
 
 # Target Variable Development
 
