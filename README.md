@@ -308,13 +308,13 @@ Potential future enhancements include:
 ## Model Performance
 
 ### ROC Curve Comparison
-![ROC Curve](image/roc_curve_comparison (2).png)
+![ROC Curve](image/roc_curve_comparison%20%282%29.png)
 
 ### Precision-Recall Curve Comparison
-![PR Curve](image/pr_curve_comparison (2).png)
+![PR Curve](image/pr_curve_comparison%20%282%29.png)
 
 ### Confusion Matrix
-![Confusion Matrix](image/confusion_matrix (2).png)
+![Confusion Matrix](image/confusion_matrix%20%282%29.png)
 
 ### Feature Importance
-![Feature Importance](image/feature_importance (2).png)
+![Feature Importance](image/feature_importance%20%282%29.png)
